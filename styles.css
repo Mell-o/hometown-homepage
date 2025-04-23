@@ -6,7 +6,7 @@ body {
 }
 
 #hero-section {
-    height: 275px;
+    height: 400px;
     background-image: url("images/ocean-city.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,18 +47,6 @@ h4 {
     width: 183px;
     height: 32px;
     text-shadow: 0 0 1px #7785A3;
-}
-
-#hero-title {
-    margin-top: 0px;
-    position: relative;
-    top: 24px;
-}
-
-#hero-tag {
-    position: relative;
-    margin-top: 0;
-    top: 45px;
 }
 
 .activities-paragraph {
