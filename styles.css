@@ -6,15 +6,26 @@ body {
 }
 
 #hero-section {
-    height: 400px;
+    aspect-ratio: 11 / 5;
+    width: 100%;
     background-image: url("images/ocean-city.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% -115px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px dotted white;
+    position: relative;
+}
+
+#hero-section:hover > * {
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+}
+
+#hero-section > * {
+    transition: opacity 0.2s ease;
 }
 
 h1, h3 {
@@ -63,9 +74,8 @@ h4 {
 
 #activities-section {
     height: 350px;
-    padding: 39px 34px 0 34px;
+    padding: 12px 34px 0 34px;
     color: white;
-    
 }
 
 #activities-container {
